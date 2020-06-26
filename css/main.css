@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+div {
+    border: solid 1px;
+}
+.wrapper{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: stretch;
+}
+.top, .bottom{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+.box {
+    flex: 1  auto;
+}
+hr {
+    border-top: 1px solid black;
+    width: 90%;
+}
+li {
+    list-style: none;
+}
