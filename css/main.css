@@ -10,17 +10,18 @@ div {
     display: flex;
     flex-flow: column nowrap;
     /*align-items: stretch;*/
+    height: 100%;
 }
 .top, .bottom{
     display: flex;
     flex-flow: row nowrap;
-    align-items: flex-end;
+    align-items: center;
 }
 .bottom{
     max-height: 20%;
 }
 .box {
-    flex: 1 0 33%;
+    flex: 1;
 }
 hr {
     border-top: 1px solid black;
@@ -35,10 +36,10 @@ img {
 }
 img:hover {
     max-width: 90%;
-    max-height: 90%;
     width: auto;
     height: auto;
 }
+
 .boxBody{
     padding: 10px;
     display: flex;
