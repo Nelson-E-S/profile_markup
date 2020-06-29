@@ -12,7 +12,7 @@ html, body{
     height: 100%;
 }
 /* div {
-    border: solid 2px;
+    border: solid 1px;
 } */
 .topShelf, .bottomShelf{
     flex: 1;
@@ -53,17 +53,20 @@ html, body{
 .boxBottom{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 .boxTop{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 35vh;
+    height: 25vh;
 }
 .boxTop img{
+    float: left;
     max-width: 80%;
     max-height: 80%;
+    background-size: cover;
+    transition: 0.2s;
     /* border: solid; */
 }
 img:hover{
@@ -71,15 +74,20 @@ img:hover{
     max-height: 90%;
     transition: 0.5s;
 }
+li, h2, h4{
+    color: white;
+}
 ul {
     list-style: none;
-    width: 90%;
+    width: 85%;
 }
 li{
     padding: 0.2em;
 }
  hr {
-     border: solid black 1px;
+     border:none;
+     height: 1px;
+     background-color: white;
  }
  h2 {
      text-align: center;
