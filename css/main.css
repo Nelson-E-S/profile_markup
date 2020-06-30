@@ -92,7 +92,10 @@ li{
     padding-bottom: 0.65em;
 }
 .summary{
-    font-size: .8em;
+    font-size: .7em;
+}
+li, .summary, h2{
+    font-family: 'Roboto', sans-serif;
 }
  hr {
      border:none;
