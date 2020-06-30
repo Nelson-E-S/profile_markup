@@ -61,21 +61,21 @@ html, body{
     align-items: flex-start;
 }
 .boxTop{
-    padding-top: 3em;
+    padding-top: 4em;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 25vh;
 }
 .boxTop img{
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 90%;
+    max-height: 90%;
     transition: 0.2s;
     /* border: solid; */
 }
 img:hover{
-    max-width: 110%;
-    max-height: 110%;
+    max-width: 100%;
+    max-height: 100%;
     transition: 0.5s;
 }
 li, h2, h4{
@@ -97,10 +97,23 @@ li{
 li, .summary, h2{
     font-family: 'Roboto', sans-serif;
 }
+.customLine{
+    display: flex;
+    align-items: center;
+}
  hr {
+     flex:99;
      border:none;
      height: 1px;
      background-color: white;
+ }
+ .bullet{
+     flex:1;
+    border:none;
+    height: 5px;
+    max-width: 5px;
+    min-width: 5px;
+    background-color: white;
  }
  h2 {
      text-align: center;
